@@ -146,7 +146,7 @@ const Features: React.FC = () => {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-2">
                       <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                        <span className="text-xs font-semibold">MA</span>
+                        <span className="text-xs font-semibold">CS</span>
                       </div>
                       <div className="flex-1 text-left">
                         <p className="md:text-sm text-xs font-medium text-gray-900">
