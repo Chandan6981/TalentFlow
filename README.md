@@ -1,27 +1,19 @@
 # TalentFlow
 
-A modern, full-stack talent management platform built with **React**, **TypeScript**, and **Vite**. TalentFlow provides comprehensive tools for HR teams to manage job postings, candidate assessments, and recruitment workflows with efficiency and scalability.
+TalentFlow is a modern full-stack talent management platform built with **React**, **TypeScript**, and **Vite**. It helps HR teams easily manage job postings, assess candidates, and streamline their entire hiring process with speed, efficiency, and scalability.
 
 
 ## Features
 
 ### Core Functionality
 
-* **Job Management**: Create, edit, and manage job postings with detailed requirements.
-* **Candidate Management**: Track and manage candidate profiles and applications.
-* **Assessment Builder**: Create multi-section assessments with various question types.
-* **Assessment Preview**: Real-time preview of assessments before publishing.
-* **Assessment Results**: View and analyze candidate responses.
-* **Dashboard Analytics**: Comprehensive HR dashboard with key metrics.
+* **Job Management**: Create, update, and organize job postings with specific role requirements.
+* **Candidate Management**: Monitor and manage candidate profiles, progress, and applications.
+* **Assessment Builder**: Design multi-section assessments with customizable question formats.
+* **Assessment Preview**: Instantly preview assessments before making them live
+* **Assessment Results**: Review and evaluate candidate submissions and performance.
+* **Dashboard Analytics**: Insightful HR dashboard displaying essential hiring metrics.
 
-### Question Types
-
-* Single Choice
-* Multiple Choice
-* Short Text
-* Long Text
-* Numeric Input
-* File Upload
 
 ### Advanced Features
 
@@ -32,6 +24,14 @@ A modern, full-stack talent management platform built with **React**, **TypeScri
 * **Persistent Storage**: IndexedDB integration via Dexie.
 
 ---
+### Question Types
+
+* Single Choice
+* Multiple Choice
+* Short Text
+* Long Text
+* Numeric Input
+* File Upload
 
 ## Tech Stack
 
@@ -138,15 +138,13 @@ npm run lint     # Run ESLint
 
 * Component-based modular React architecture
 * Full TypeScript coverage for type safety
-* Mobile-first responsive design with Tailwind CSS
-* Accessibility built-in with Radix UI primitives
+* Responsive and modern UI powered by Tailwind CSS
 
 ### Data Layer
 
 * Mock backend powered by MSW
 * IndexedDB persistence via Dexie
 * Seed data generation using Faker.js
-* Strong typing across all data operations
 
 ### Routing
 
@@ -160,9 +158,9 @@ npm run lint     # Run ESLint
 
 **Why React 19?**
 
-* Improved concurrent rendering
-* Automatic batching for better performance
-* New hooks for enhanced developer experience
+* Faster rendering with optimized concurrency
+* Smarter state updates through automatic batching
+* Enhanced development experience with new React hooks
 
 **Why Vite over Create React App?**
 
@@ -219,7 +217,7 @@ npm run lint     # Run ESLint
 
 ## Deployment
 
-### Vercel (Recommended)
+### Vercel (I USED FOR DEPLOYMENT)
 
 * Connect the GitHub repository to Vercel
 * Automatic detection of Vite configuration
@@ -280,15 +278,8 @@ npm run lint     # Run ESLint
 
 ---
 
-## Acknowledgments
 
-* React – The UI library
-* Vite – The build tool
-* Tailwind CSS – The CSS framework
-* MSW – The API mocking library
-* Dexie – The IndexedDB wrapper
-* Radix UI – The component primitives
 
 ---
 
-**TalentFlow – Streamlining talent management for modern HR teams.**
+**TalentFlow – End to End Hiring management for modern HR teams.**
